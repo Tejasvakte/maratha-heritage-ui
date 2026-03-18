@@ -86,7 +86,7 @@ To create a **premium, competition-level website** that:
 * Add real-time visitor info (maps, timings)
 * Add audio storytelling / narration
 * Add 3D fort visualization
-* Add multilingual support
+* Add multilingual support.
 
 ---
 
