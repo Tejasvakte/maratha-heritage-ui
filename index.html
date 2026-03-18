@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An ultra-premium single-page experience celebrating Shivneri Fort, the birthplace of Chhatrapati Shivaji Maharaj."
+    />
+    <title>Shivneri Fort | Birthplace of Chhatrapati Shivaji Maharaj</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="loading">
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-mark">SF</div>
+      <p>Shivneri Fort</p>
+    </div>
+
+    <div class="page-backdrop" aria-hidden="true"></div>
+    <div class="page-overlay" aria-hidden="true"></div>
+    <div class="page-texture" aria-hidden="true"></div>
+    <div class="ambient-particles" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <div class="scroll-progress" aria-hidden="true">
+      <span id="scroll-progress-bar"></span>
+    </div>
+
+    <header class="site-header" id="top">
+      <nav class="navbar container">
+        <a href="#home" class="brand" aria-label="Shivneri Fort home">
+          <span class="brand-mark">SF</span>
+          <span class="brand-copy">
+            <strong>Shivneri Fort</strong>
+            <small>Legacy of Swarajya</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="#about">About</a>
+          <a href="#importance">Importance</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#visit">Visit</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-pattern" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy reveal" data-reveal="up">
+            <span class="eyebrow">Birthplace of Chhatrapati Shivaji Maharaj</span>
+            <h1>Shivneri Fort</h1>
+            <p class="hero-lead">
+              A timeless stronghold rising above Junnar, where courage, strategy,
+              and vision took their earliest breath in the Sahyadri hills.
+            </p>
+
+            <div class="hero-badges reveal" data-reveal="up">
+              <span class="glass-chip">Royal hill citadel</span>
+              <span class="glass-chip">Immersive heritage story</span>
+              <span class="glass-chip">Premium guided experience</span>
+            </div>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary glow" href="#about">Explore the Story</a>
+              <a class="btn btn-secondary" href="#visit">Plan Your Visit</a>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-card glass-card reveal" data-reveal="up">
+                <strong>1630</strong>
+                <span>Birth year of Shivaji Maharaj at Shivneri Fort</span>
+              </article>
+              <article class="stat-card glass-card reveal" data-reveal="up">
+                <strong>Junnar</strong>
+                <span>Historic hill fort in Pune district, Maharashtra</span>
+              </article>
+              <article class="stat-card glass-card reveal" data-reveal="up">
+                <strong>7 Gates</strong>
+                <span>Layered defensive access through monumental gateways</span>
+              </article>
+            </div>
+          </div>
+
+          <aside class="hero-panel glass-card reveal" data-reveal="right">
+            <p class="panel-label">The Experience</p>
+            <h2>History, landscape, and legacy in one commanding view.</h2>
+            <p>
+              A cinematic showcase blending Maratha-inspired colors, restrained
+              glassmorphism, refined motion, and elegant storytelling.
+            </p>
+            <div class="panel-highlights">
+              <span>Fixed royal backdrop</span>
+              <span>Calm premium motion</span>
+              <span>Competition-ready polish</span>
+            </div>
+          </aside>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+          <span></span>
+        </a>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section-shell">
+          <div class="section-heading reveal" data-reveal="up">
+            <span class="eyebrow">About Shivneri Fort</span>
+            <h2>The cradle of a legendary empire.</h2>
+            <p>
+              Shivneri Fort is more than a hill fort. It is an emotional landmark
+              in Indian history, forever associated with the birth and early
+              inspiration of Chhatrapati Shivaji Maharaj.
+            </p>
+          </div>
+
+          <div class="about-layout">
+            <article class="story-card glass-card reveal" data-reveal="left">
+              <h3>Set on a naturally defended hillscape</h3>
+              <p>
+                Surrounded by steep escarpments and commanding valley views,
+                Shivneri was built for endurance. Its location offered strategic
+                protection while staying deeply connected to the trade and culture
+                of the Junnar region.
+              </p>
+              <p>
+                The fort's solemn presence, gateways, water systems, and sacred
+                spaces turn every climb into a layered encounter with Maratha
+                resilience and purpose.
+              </p>
+            </article>
+
+            <div class="feature-stack">
+              <article class="feature-card glass-card reveal" data-reveal="right">
+                <span class="feature-number">01</span>
+                <h3>Strategic Elevation</h3>
+                <p>
+                  Elevated terrain and cliff edges made the fort naturally secure
+                  and visually dominant across the surrounding region.
+                </p>
+              </article>
+              <article class="feature-card glass-card reveal" data-reveal="right">
+                <span class="feature-number">02</span>
+                <h3>Sacred Association</h3>
+                <p>
+                  The site remains spiritually and culturally significant for
+                  admirers of Shivaji Maharaj across generations.
+                </p>
+              </article>
+              <article class="feature-card glass-card reveal" data-reveal="right">
+                <span class="feature-number">03</span>
+                <h3>Living Heritage</h3>
+                <p>
+                  Every bastion, path, and reservoir contributes to a still-living
+                  memory of sovereignty and self-rule.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="importance">
+        <div class="container section-shell">
+          <div class="importance-grid">
+            <div class="image-frame reveal" data-reveal="left">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Shivneri%20Fort.jpg"
+                alt="View of Shivneri Fort rising above the landscape"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="importance-copy reveal" data-reveal="right">
+              <div class="section-heading left">
+                <span class="eyebrow">Historical Importance</span>
+                <h2>Where Swarajya found its first horizon.</h2>
+              </div>
+
+              <div class="importance-cards">
+                <article class="glass-card importance-card">
+                  <h3>Birthplace of a visionary ruler</h3>
+                  <p>
+                    Shivneri Fort is revered as the birthplace of Chhatrapati
+                    Shivaji Maharaj, the leader whose courage and statecraft
+                    transformed the political destiny of the region.
+                  </p>
+                </article>
+                <article class="glass-card importance-card">
+                  <h3>Symbol of identity and self-rule</h3>
+                  <p>
+                    The fort stands as a symbol of Maratha pride, discipline, and
+                    the enduring ideal of Swarajya rooted in self-respect and
+                    governance.
+                  </p>
+                </article>
+                <article class="glass-card importance-card quote-card">
+                  <p>
+                    "Shivneri is not merely remembered. It is felt as the beginning
+                    of a civilizational story of courage, dignity, and leadership."
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="architecture">
+        <div class="container section-shell">
+          <div class="section-heading reveal" data-reveal="up">
+            <span class="eyebrow">Architecture Highlights</span>
+            <h2>Defensive intelligence shaped into stone.</h2>
+            <p>
+              Shivneri Fort reveals how terrain, planning, and protection worked
+              together to create a hill fort that was both practical and majestic.
+            </p>
+          </div>
+
+          <div class="architecture-grid">
+            <article class="glass-card architecture-card reveal" data-reveal="up">
+              <h3>Monumental Gateways</h3>
+              <p>
+                A sequence of fortified gates controlled movement inward and added
+                multiple defensive layers.
+              </p>
+            </article>
+            <article class="glass-card architecture-card reveal" data-reveal="up">
+              <h3>Water Storage Systems</h3>
+              <p>
+                Rock-cut tanks and reservoirs supported long-term survival during
+                periods of pressure and siege.
+              </p>
+            </article>
+            <article class="glass-card architecture-card reveal" data-reveal="up">
+              <h3>Triangular Hill Form</h3>
+              <p>
+                The natural geometry of the fort amplified surveillance, defense,
+                and the drama of its skyline.
+              </p>
+            </article>
+            <article class="glass-card architecture-card reveal" data-reveal="up">
+              <h3>Sacred and Civic Spaces</h3>
+              <p>
+                Temples, internal routes, and open courts created a fort that was
+                strategic yet culturally rooted.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container section-shell">
+          <div class="section-heading reveal" data-reveal="up">
+            <span class="eyebrow">Image Gallery</span>
+            <h2>Textures of stone, sky, and legacy.</h2>
+            <p>
+              A curated gallery that captures the atmosphere of Shivneri Fort
+              through panoramic slopes, gateways, and sacred heritage points.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-card wide reveal" data-reveal="up">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Shivneri%20Fort.jpg"
+                alt="Wide scenic view of Shivneri Fort"
+                loading="lazy"
+              />
+              <figcaption>Panoramic silhouette above Junnar</figcaption>
+            </figure>
+            <figure class="gallery-card tall reveal" data-reveal="up">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Shivneri%20Fort.jpg"
+                alt="Stone structure at Shivneri Fort"
+                loading="lazy"
+              />
+              <figcaption>The birthplace fort of Shivaji Maharaj</figcaption>
+            </figure>
+            <figure class="gallery-card reveal" data-reveal="up">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Shivneri%20fort.jpg"
+                alt="Landscape view from Shivneri Fort"
+                loading="lazy"
+              />
+              <figcaption>Defensive landscape and cliff edges</figcaption>
+            </figure>
+            <figure class="gallery-card reveal" data-reveal="up">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Shevneri%20Fort%2CPune.jpg"
+                alt="Fort wall and path at Shivneri Fort"
+                loading="lazy"
+              />
+              <figcaption>Stone pathways shaped by time</figcaption>
+            </figure>
+            <figure class="gallery-card reveal" data-reveal="up">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Shivneri%20Hill.jpg"
+                alt="Hill profile of Shivneri Fort"
+                loading="lazy"
+              />
+              <figcaption>Natural topography as defense</figcaption>
+            </figure>
+            <figure class="gallery-card reveal" data-reveal="up">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/SHIVNERI%20SHIVRAY%20BIRTHPLACE.jpg"
+                alt="Birthplace memorial site at Shivneri Fort"
+                loading="lazy"
+              />
+              <figcaption>Sacred memory preserved in stone</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="timeline">
+        <div class="container section-shell">
+          <div class="section-heading reveal" data-reveal="up">
+            <span class="eyebrow">Timeline of Shivaji Maharaj</span>
+            <h2>A life that reshaped history.</h2>
+            <p>
+              From birth at Shivneri to coronation and enduring legacy, the journey
+              of Shivaji Maharaj remains one of the most defining narratives of
+              Indian leadership and resistance.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal" data-reveal="up">
+              <span class="timeline-year">1630</span>
+              <div class="timeline-card glass-card">
+                <h3>Birth at Shivneri Fort</h3>
+                <p>
+                  Shivaji Maharaj was born at Shivneri, giving the fort its
+                  unmatched emotional and national significance.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal" data-reveal="up">
+              <span class="timeline-year">1645</span>
+              <div class="timeline-card glass-card">
+                <h3>Rise of a vision</h3>
+                <p>
+                  The dream of Swarajya began taking shape through bold political
+                  awareness, discipline, and local mobilization.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal" data-reveal="up">
+              <span class="timeline-year">1647</span>
+              <div class="timeline-card glass-card">
+                <h3>Early fort captures</h3>
+                <p>
+                  Strategic control of forts became central to the Maratha
+                  expansion model and military confidence.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal" data-reveal="up">
+              <span class="timeline-year">1659</span>
+              <div class="timeline-card glass-card">
+                <h3>Victory at Pratapgad</h3>
+                <p>
+                  A defining military success elevated Shivaji Maharaj's stature
+                  and demonstrated his tactical brilliance.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal" data-reveal="up">
+              <span class="timeline-year">1674</span>
+              <div class="timeline-card glass-card">
+                <h3>Coronation at Raigad</h3>
+                <p>
+                  The coronation formalized sovereign Maratha rule and marked a
+                  major civilizational moment in Indian history.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal" data-reveal="up">
+              <span class="timeline-year">Legacy</span>
+              <div class="timeline-card glass-card">
+                <h3>Inspiration across generations</h3>
+                <p>
+                  Shivaji Maharaj's ideals of justice, courage, and self-rule
+                  continue to inspire public life, memory, and identity.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="visit">
+        <div class="container section-shell">
+          <div class="visit-banner glass-card reveal" data-reveal="up">
+            <div>
+              <span class="eyebrow">Visitor Information</span>
+              <h2>Plan a meaningful visit to the birthplace of a legend.</h2>
+            </div>
+            <a href="#top" class="btn btn-primary glow">Back to Top</a>
+          </div>
+
+          <div class="visit-grid">
+            <article class="glass-card visit-card reveal" data-reveal="up">
+              <h3>Location</h3>
+              <p>Junnar, Pune district, Maharashtra, nestled in the Sahyadri range.</p>
+            </article>
+            <article class="glass-card visit-card reveal" data-reveal="up">
+              <h3>Best Season</h3>
+              <p>October to February offers pleasant weather, clear views, and a comfortable climb.</p>
+            </article>
+            <article class="glass-card visit-card reveal" data-reveal="up">
+              <h3>Ideal Experience</h3>
+              <p>Start early, carry water, wear trekking-friendly shoes, and allow time for reflection and photography.</p>
+            </article>
+            <article class="glass-card visit-card reveal" data-reveal="up">
+              <h3>What to Notice</h3>
+              <p>Gateway design, fortification geometry, water tanks, scenic ridgelines, and heritage markers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <div class="footer-copy">
+          <strong>Shivneri Fort</strong>
+          <p>Crafted as an ultra-premium heritage experience inspired by Maratha grandeur.</p>
+        </div>
+        <p class="footer-note">Competition-ready build. <span id="year"></span></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
